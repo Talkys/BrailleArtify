@@ -1,6 +1,7 @@
 package main
 
 import (
+	"braile/functions"
 	"flag"
 	"fmt"
 	"os"
@@ -38,7 +39,7 @@ func main() {
 		}
 
 		if fileInfo.IsDir() {
-			play_video(folPath, threshold, fpsFlag)
+			functions.Play_video(folPath, threshold, fpsFlag)
 		} else {
 			fmt.Println("Can't pass file as directory")
 		}
@@ -54,7 +55,7 @@ func main() {
 		if fileInfo.IsDir() {
 			fmt.Println("Can't pass directory as file")
 		} else {
-			fmt.Print(generate(imgPath, threshold))
+			fmt.Print(functions.Generate(imgPath, threshold))
 			//generate(imgPath, threshold)
 		}
 	}

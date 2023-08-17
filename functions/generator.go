@@ -1,4 +1,4 @@
-package main
+package functions
 
 import (
 	"strconv"
@@ -67,7 +67,7 @@ func discretize(v uint8) string {
 	}
 }
 
-func generate(filepath string, threshold int) string {
+func Generate(filepath string, threshold int) string {
 
 	frame := ""
 	if !(strings.HasSuffix(filepath, ".png") ||
