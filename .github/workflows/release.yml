@@ -21,6 +21,8 @@ jobs:
         with:
           go-version: stable
 
+      # Going to the src code folder
+      - run: cd ./src
       - uses: goreleaser/goreleaser-action@v4
         with:
           distribution: goreleaser
