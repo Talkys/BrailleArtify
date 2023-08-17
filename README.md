@@ -20,6 +20,7 @@ To test with a simple image, we will use this Komi-san image, already optimized 
 
 Now we can see the result after running the program:
 <div style="overflow-x: scroll;">
+<div>
 ```
 ⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿
 ⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿
@@ -62,5 +63,6 @@ Now we can see the result after running the program:
 ⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⠀⠀⡄⠘⡌⠀⠀⠘⢿⣾⣿⣿⣿⣿⣿⣧⠻⡘⣧⢸⡈⣂⢃⢸⡄⠀⣓⠘⠆⢡⢻⡀⣧⠹⡜⣦⣡⣿⣿⣿⣿⣿⡟⣿⣿⣿⣿⣧⠀⠀⣿⠀⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿
 ⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⠀⠀⠃⠀⠐⠀⠀⢦⣌⣱⡿⣿⣿⣿⣿⣿⡀⣇⢸⣏⣷⠘⠌⣡⢠⡟⣿⣇⠠⡘⠧⢿⡸⣧⡹⠌⣿⣿⣿⣿⣿⡿⣽⣿⣿⣿⣿⣿⡆⠀⡿⢠⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿
 ```
+</div>
 </div>
 The image will be inverted if you use light mode
