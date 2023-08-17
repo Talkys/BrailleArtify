@@ -26,7 +26,7 @@ func main() {
 	flag.Parse()
 
 	if imgPath != "" && folPath != "" {
-		fmt.Println("Error: can't use -i and -v togheter")
+		fmt.Println("Error: can't use -i and -v together")
 		os.Exit(1)
 	}
 

@@ -2,7 +2,6 @@ package main
 
 import (
 	"fmt"
-	"io/ioutil"
 	"os"
 	"os/exec"
 	"path/filepath"
@@ -13,9 +12,9 @@ func play_video(folderPath string, threshold int, targetFPS float64) {
 
 	callCount := 0
 
-	filePaths, err := ioutil.ReadDir(folderPath)
+	filePaths, err := os.ReadDir(folderPath)
 	if err != nil {
-		fmt.Println("Erro ao ler os arquivos:", err)
+		fmt.Println("Failed reading files:", err)
 		return
 	}
 

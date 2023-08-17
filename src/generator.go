@@ -42,31 +42,6 @@ func splitTiles2(matrix [][]uint8, Xs int, Ys int) [][][]uint8 {
 	return tiles
 }
 
-/*
-func splitTiles(matrix [][]uint8, Xs int, Ys int) [][][]uint8 {
-	rows := len(matrix)
-	cols := len(matrix[0])
-
-	tiles := make([][][]uint8, 0)
-
-	for i := 0; i < rows; i += Ys {
-		for j := 0; j < cols; j += Xs {
-			var tile [][]uint8
-			for y := i; y < i+Ys && y < rows; y++ {
-				row := make([]uint8, 0)
-				for x := j; x < j+Xs && x < cols; x++ {
-					row = append(row, matrix[y][x])
-				}
-				tile = append(tile, row)
-			}
-			tiles = append(tiles, tile)
-		}
-	}
-
-	return tiles
-}
-*/
-
 func mapChar(tile [][]uint8) rune {
 	binary := ""
 	binary += discretize(tile[3][1])
@@ -83,7 +58,7 @@ func mapChar(tile [][]uint8) rune {
 	return rune(base + int(decimalValue))
 }
 
-//Jeito mais fácil de converter só 1 e 0
+// Faster conversion {0, 1} to {"0", "1"}
 func discretize(v uint8) string {
 	if v == 1 {
 		return "1"
@@ -104,10 +79,8 @@ func generate(filepath string, threshold int) string {
 	X := 2
 	Y := 4
 
-	//startTime := time.Now()
 	tiles := splitTiles2(matrix, X, Y)
-	//elapsedTime := time.Since(startTime)
-	//fmt.Println(elapsedTime)
+
 	var letras []rune
 
 	for _, tile := range tiles {
