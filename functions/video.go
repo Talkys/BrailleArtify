@@ -1,21 +1,20 @@
-package main
+package functions
 
 import (
 	"fmt"
-	"io/ioutil"
 	"os"
 	"os/exec"
 	"path/filepath"
 	"time"
 )
 
-func play_video(folderPath string, threshold int, targetFPS float64) {
+func Play_video(folderPath string, threshold int, targetFPS float64) {
 
 	callCount := 0
 
-	filePaths, err := ioutil.ReadDir(folderPath)
+	filePaths, err := os.ReadDir(folderPath)
 	if err != nil {
-		fmt.Println("Erro ao ler os arquivos:", err)
+		fmt.Println("Failed reading files:", err)
 		return
 	}
 
@@ -31,7 +30,7 @@ func play_video(folderPath string, threshold int, targetFPS float64) {
 		filePath := filepath.Join(folderPath, filePaths[callCount].Name())
 		//fmt.Printf("Chamada da função #%d com arquivo: %s\n", callCount+1, filePath)
 
-		frame := generate(filePath, threshold) // Passe o caminho do arquivo como parâmetro
+		frame := Generate(filePath, threshold) // Passe o caminho do arquivo como parâmetro
 		clearTerminal()
 		fmt.Print(frame)
 
