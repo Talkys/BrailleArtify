@@ -19,8 +19,7 @@ To test with a simple image, we will use this Komi-san image, already optimized 
 <img src="./img/komi.png" alt="Komi-san" style="width:100%;">
 
 Now we can see the result after running the program:
-<div style="white-space: pre; overflow-x:scroll;">
-```
+<div style="font-size: .5rem; font-family: monospace; line-height: 1.2;">
 ⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿
 ⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿
 ⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿
@@ -61,6 +60,6 @@ Now we can see the result after running the program:
 ⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⠃⠀⠀⢸⠀⠀⠀⢿⣿⣿⣿⣿⣿⣿⣿⡇⣧⢹⡘⣇⢡⠉⡘⡃⢪⢰⠐⢡⠸⡞⣆⢓⢑⡘⢇⠹⡄⣿⣿⣿⣿⣿⣿⣏⣾⣿⣿⡄⠀⠃⣿⠈⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿
 ⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⠀⠀⡄⠘⡌⠀⠀⠘⢿⣾⣿⣿⣿⣿⣿⣧⠻⡘⣧⢸⡈⣂⢃⢸⡄⠀⣓⠘⠆⢡⢻⡀⣧⠹⡜⣦⣡⣿⣿⣿⣿⣿⡟⣿⣿⣿⣿⣧⠀⠀⣿⠀⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿
 ⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⠀⠀⠃⠀⠐⠀⠀⢦⣌⣱⡿⣿⣿⣿⣿⣿⡀⣇⢸⣏⣷⠘⠌⣡⢠⡟⣿⣇⠠⡘⠧⢿⡸⣧⡹⠌⣿⣿⣿⣿⣿⡿⣽⣿⣿⣿⣿⣿⡆⠀⡿⢠⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿
-```
+
 </div>
 The image will be inverted if you use light mode
