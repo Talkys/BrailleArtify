@@ -8,7 +8,7 @@ For images use ./braile -i image.png (it only works with jpegs and pngs)
 
 For videos use ./braile -v frame_folder -f fps (the folder must contain only images and they must be in order. The fps value can handle non integers like 29.97)
 
-The -a flag is used to set an audio file. It can conly be used in -v format, and must be used with the -d flag to set a delay in ms to sync audio and video
+The -a flag is used to set an audio file. It can only be used in -v format, and must be used with the -d flag to set a delay in ms to sync audio and video
 
 The -t flag is used to set a threshold from 0 to 255 and customize contrast. The default is 127.
 
