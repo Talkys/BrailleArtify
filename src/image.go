@@ -27,8 +27,8 @@ func loadImage(filePath string, threshold int) ([][]uint8, error) {
 	for y := 0; y < height; y++ {
 		matrix[y] = make([]uint8, width)
 		for x := 0; x < width; x++ {
-			r, _, _, _ := img.At(x, y).RGBA()
-			grayValue := uint8((r + r + r) / 3)
+			r, g, b, _ := img.At(x, y).RGBA()
+			grayValue := uint8((r*299 + g*587 + b*114) / 1000 >> 8)
 			if grayValue > uint8(threshold) {
 				matrix[y][x] = 1
 			} else {
